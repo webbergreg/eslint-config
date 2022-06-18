@@ -1,0 +1,36 @@
+{
+  "name": "@webbergreg/eslint-config",
+  "version": "0.0.1",
+  "description": "My shared eslint config.",
+  "scripts": {
+    "release": "npx np --no-tests --message `v%s`"
+  },
+  "files": [
+    "typescript-react.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webbergreg/eslint-config.git"
+  },
+  "author": "@webbergreg",
+  "license": "ISC",
+  "devDependencies": {
+    "np": "^7.6.1",
+    "@typescript-eslint/eslint-plugin": "^5.21.0",
+    "@typescript-eslint/parser": "^5.22.0",
+    "eslint": "^8.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "eslint-plugin-unused-imports": "^2.0.0"
+  },
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.21.0",
+    "@typescript-eslint/parser": "^5.22.0",
+    "eslint": "^8.14.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-prefer-arrow": "^1.2.3",
+    "eslint-plugin-unused-imports": "^2.0.0"
+  }
+}
