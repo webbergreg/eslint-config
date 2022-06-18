@@ -1,6 +1,6 @@
 {
   "name": "@webbergreg/eslint-config",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "My shared eslint config.",
   "scripts": {
     "release": "npx np --no-tests"
