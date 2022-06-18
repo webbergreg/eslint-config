@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "description": "My shared eslint config.",
   "scripts": {
-    "release": "npx np --no-tests --message `v%s`"
+    "release": "npx np --no-tests"
   },
   "files": [
     "typescript-react.js"
