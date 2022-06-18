@@ -5,6 +5,9 @@
   "scripts": {
     "release": "npx np --no-tests"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "files": [
     "typescript-react.js"
   ],
